@@ -1,0 +1,8 @@
+(ns for-clojure.problem43)
+
+(defn partition-seq-with-n-element 
+  [v n]
+  (partition (/ (count v) n) v))
+
+(partition-seq-with-n-element [1 2 3 4 5 6] 2)
+

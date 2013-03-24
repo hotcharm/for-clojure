@@ -1,0 +1,5 @@
+(ns for-clojure.problem77)
+
+(defn anagram-finder 
+  [v]
+  (group-by sort v))

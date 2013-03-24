@@ -1,0 +1,5 @@
+(ns for-clojure.problem60)
+(defn sequence-reductions
+  ([f coll]
+     (conj []))
+  ([f init coll]))
